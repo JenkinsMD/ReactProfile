@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+/* Color palettes
+Languid Lavender #E5D9F2
+Magnolia #F5EFFF
+Lavender Blue #CDC1FF
+Maximum Blue Purple #A594F9 */
+
+.navbackground {
+  background-color: #A594F9;
+}
+
+.mainbackground {
+  background-color: #F5EFFF;
+ 
+}
+
+.cardbackground {
+  background-color: #E5D9F2;
+}
+
+.footerbackground {
+  background-color: #CDC1FF;
+}
+
+
+

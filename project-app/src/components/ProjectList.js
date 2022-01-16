@@ -1,8 +1,10 @@
 import React from "react"
 import Project from "./Project"
-import temp1 from "./images/temp1.jpg"
-import temp2 from "./images/temp2.jpg"
-
+import Bitcoin1 from "./images/Bitcoin1.JPG"
+import Fitnesstracker1 from "./images/Fitnesstracker1.JPG"
+import Schedule from "./images/WorkDayScheduler1.JPG"
+import Music from "./images/MusicClub1.JPG"
+import Dashboard from "./images/Weathertracker1.JPG"
 
 function ProjectList() {
 
@@ -11,18 +13,42 @@ const projects = [
         id:1,
         title: "Workout Tracker",
         subjects: "Node",
-        githubDep: "github deployed",
-        githubRepo: "github repo",
-        image: temp1
-
+        githubDep: "https://mj-workout-tracker.herokuapp.com/",
+        githubRepo: "https://github.com/JenkinsMD/WorkoutTracker",
+        image: Fitnesstracker1
+        
     },
     {
         id:2,
         title: "Bitcoinhub",
         subjects: "Node",
-        githubDep: "github deployed",
-        githubRepo: "github repo",
-        image: temp2
+        githubDep: "https://jenkinsmd.github.io/GrpPrj1-Bitcoin",
+        githubRepo: "https://github.com/JenkinsMD/GrpPrj1-Bitcoin",
+        image: Bitcoin1
+    },
+    {
+        id:3,
+        title: "Work Day Scheduler",
+        subjects: "Node",
+        githubDep: "https://jenkinsmd.github.io/HW5-Schedule/",
+        githubRepo: "https://github.com/JenkinsMD/HW5-Schedule",
+        image: Schedule
+    },
+    {
+        id:4,
+        title: "Music Review Club",
+        subjects: "Node",
+        githubDep: "https://music-review-club.herokuapp.com/",
+        githubRepo: "https://github.com/lydiawdesign/music-review-club",
+        image: Music
+    },
+    {
+        id:5,
+        title: "Weather Dashboard",
+        subjects: "Node",
+        githubDep: "https://jenkinsmd.github.io/HW6-Dashboard/",
+        githubRepo: "https://github.com/JenkinsMD/HW6-Dashboard",
+        image: Dashboard
     }
 
 ]

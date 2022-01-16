@@ -3,15 +3,22 @@ import React from 'react';
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
+      <h1>Contact Form</h1>
+      <form>
+          <div class="form-group col-md-4">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" id="nameInput"  placeholder="Enter name" required></input>
           </div>
-          <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+          <div class="form-group col-md-4">
+            <label for="Email">Email address</label>
+            <input type="email" class="form-control" id="emailInput"  placeholder="Enter email" required></input>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="Message">Example textarea</label>
+            <textarea class="form-control" id="messageInput" rows="3" required></textarea>
+         </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
   );
 }
