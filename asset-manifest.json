@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ReactProfle/static/css/main.bb31d3a8.css",
+    "main.js": "/ReactProfle/static/js/main.304e14c9.js",
+    "static/media/BookSearch1.JPG": "/ReactProfle/static/media/BookSearch1.264f2e8e3fae309515dc.JPG",
+    "static/media/Bitcoin1.JPG": "/ReactProfle/static/media/Bitcoin1.f8a1af013b71f844937c.JPG",
+    "static/media/Weathertracker1.JPG": "/ReactProfle/static/media/Weathertracker1.f83bc9c9d1ddc31ac7f0.JPG",
+    "static/media/WorkDayScheduler1.JPG": "/ReactProfle/static/media/WorkDayScheduler1.827a1314d954722bba0f.JPG",
+    "static/media/MusicClub1.JPG": "/ReactProfle/static/media/MusicClub1.bfd3cf851023826908d2.JPG",
+    "static/media/Fitnesstracker1.JPG": "/ReactProfle/static/media/Fitnesstracker1.51e4e20b52db2119cbe3.JPG",
+    "static/media/Avatar.png": "/ReactProfle/static/media/Avatar.18dccab2140c3c79de8e.png",
+    "index.html": "/ReactProfle/index.html",
+    "main.bb31d3a8.css.map": "/ReactProfle/static/css/main.bb31d3a8.css.map",
+    "main.304e14c9.js.map": "/ReactProfle/static/js/main.304e14c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb31d3a8.css",
+    "static/js/main.304e14c9.js"
+  ]
+}
