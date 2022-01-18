@@ -1,7 +1,6 @@
 import React from 'react';
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
+//Handles the nav bar and the switching of pages
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav class="navbar navbar-expand-lg navbar-light navbackground collapseOnSelect ">
@@ -16,8 +15,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a
           href="#About"
           onClick={() => handlePageChange('About')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+          //switch to about
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} 
         >
           About
@@ -28,7 +26,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a
           href="#Portfolio"
           onClick={() => handlePageChange('Portfolio')}
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          //switch to portfolio
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
           Portfolio
@@ -38,7 +36,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+        //switch to contact
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
@@ -48,7 +46,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a
           href="#Resume"
           onClick={() => handlePageChange('Resume')}
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+        //switch to resume
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
           Resume

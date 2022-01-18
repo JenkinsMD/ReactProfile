@@ -8,7 +8,7 @@ import Dashboard from "./images/Weathertracker1.JPG"
 import BookSearch from "./images/BookSearch1.JPG"
 
 function ProjectList() {
-
+//data
 const projects = [
     {
         id:1,
@@ -62,7 +62,7 @@ const projects = [
 
 ]
 
-    
+    //makes page by calling project component
     const projectExamples = projects.map(project=> (
         console.log({project}),
         <Project key={project.id}  project={project}></Project>

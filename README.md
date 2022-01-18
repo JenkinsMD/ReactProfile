@@ -2,9 +2,9 @@
 
 # Page links
 
- * https://jenkinsmd.github.io/HW2-Portfolio/
+ * https://jenkinsmd.github.io/ReactProfile/
 
- * https://github.com/JenkinsMD/HW2-Portfolio
+ * https://github.com/JenkinsMD/ReactProfile
 
  ## Description
 

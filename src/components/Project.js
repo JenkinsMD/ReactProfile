@@ -3,7 +3,7 @@ import React from "react";
 
 
 
-
+//template for project cards
 function Project({project}) {
     return (
     
