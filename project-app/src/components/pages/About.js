@@ -14,8 +14,8 @@ export default function About() {
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title">About me</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <p class="card-text">I am currently a student enrolled at OSU Coding Bootcamp.  My background is in accounting, but I have always had an interest in web development. I am taking this course to challenge my self to learn a new skillset and potentially pursue a career change.</p>
+                
               </div>
             </div>
           </div>
