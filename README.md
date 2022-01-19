@@ -15,7 +15,7 @@ This is a portfolio of what I have accomplished in the course so far.  My portfo
 
 The following screenshot shows the web application's appearance and functionality:
 
-![portfolio demo](./Assets/Portfolio1.JPG)
+![portfolio demo](./src/components/images/Portfolioreact.JPG)
 
 ## Projects 
 * Workout Tracker - https://mj-workout-tracker.herokuapp.com/
